@@ -2,7 +2,7 @@ import { useSignal } from "@preact/signals";
 import Menu from "../islands/Menu.tsx";
 
 export default function Home() {
-  const selected = useSignal("immutable");
+  const selected = useSignal("");
   return (
     <div class="h-dvh w-dvh p-0 m-0 overflow-hidden flex flex-col">
       <header class="bg-[#86efac] h-[250px] flex flex-col items-center justify-center pb-4">
